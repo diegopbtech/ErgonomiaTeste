@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: 'Codec';
-    src: url('../fonts/Codec-pro.ttf');
+    src: url('../_fonts/Codec-pro.ttf');
 }
 
 @keyframes slide-in {
@@ -109,10 +109,6 @@
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-  body{
-    min-width: 97.4vw !important;
-    max-width: 97.5vw !important;
-  }
   .title h1 {
     font-size: 60px !important;
   }
@@ -142,9 +138,6 @@
 }
 
 @media (min-width: 1680px) {
-  body{
-    width: 99vw !important;
-  }
   .title h1 {
     margin-left: 100px !important;
     font-size: 120px !important;

@@ -251,7 +251,7 @@ div.leftF p{
 
 div.rightF{
     width: 58%;
-    min-width: 600px;
+    min-width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -315,7 +315,7 @@ div.leftFi{
 
 div.rightFi{
     width: 58%;
-    min-width: 500px;
+    min-width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;

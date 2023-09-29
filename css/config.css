@@ -34,20 +34,17 @@
 }
 
 @media (max-width: 768px) {
-  body{
-    min-width: 97vw !important;
-    max-width: 95vw !important;
-  }
   .title h1 {
     font-size: 2.2rem !important;
     margin-left: 10px !important;
   }
   .title h2 {
-    font-size: 0.7rem !important;
+    font-size: 0.55rem !important;
+    margin-left: 10% !important;
   }
   .title p {
     font-size: 0.5rem !important;
-    margin-top: -2px;
+    margin-top: -0.1px !important;
   }
   .main-second{
     font-size: 18px !important;

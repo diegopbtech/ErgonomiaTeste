@@ -1,10 +1,9 @@
 body{
     background-color: #EFF0EC;
     font-family: Codec;
-    width: 98.5vw;
-    max-width: 98.79vw;
-    min-width: 90vw;
+    width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 main {
@@ -362,7 +361,7 @@ div.main-sixth{
 
 div.leftS{
     width: 40%;
-    min-width: 400px;
+    min-width: 370px;
     display: flex;
     height: 100%;
     align-items: center;

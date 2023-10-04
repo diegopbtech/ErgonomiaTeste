@@ -89,6 +89,8 @@ div.right {
 }
 
 div.main-second{
+    opacity: 0;
+    transform: translateY(20px);
     z-index: 1;
     width: 100%;
     display: flex;
@@ -141,7 +143,6 @@ div.main-third h1{
     font-weight: bold;
     color: #3F4726;
     margin: 4% 0 4% 0;
-    text-shadow: 3px 1px 10px rgba(0, 0, 0, 0.4);
 }
 
 div.cards{
@@ -154,6 +155,8 @@ div.cards{
 }
 
 div.card{
+    opacity: 0;
+    transform: translateY(20px);
     width: 20%;
     display: flex;
     flex-direction: column;
@@ -165,7 +168,7 @@ div.card{
     margin: 20px;
     background-color: #EFF0EC;
     text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 }
 
 div.image{
@@ -211,6 +214,8 @@ div.information-card p{
 }
 
 div.main-fourth{
+    opacity: 0;
+    transform: translateY(20px);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -296,6 +301,8 @@ div.request-fourth a:hover{
 }
 
 div.main-fifth{
+    opacity: 0;
+    transform: translateY(20px);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -315,7 +322,7 @@ div.leftFi{
 
 div.rightFi{
     width: 58%;
-    min-width: 400px;
+    min-width: 360px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -350,6 +357,8 @@ div.image-fifth img{
 }
 
 div.main-sixth{
+    opacity: 0;
+    transform: translateY(20px);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -361,7 +370,7 @@ div.main-sixth{
 
 div.leftS{
     width: 40%;
-    min-width: 370px;
+    min-width: 360px;
     display: flex;
     height: 100%;
     align-items: center;
@@ -412,6 +421,8 @@ div.tag h2{
 }
 
 footer {
+    opacity: 0;
+    transform: translateY(20px);
     background-color: #7B8D42;
     color: #EFF0EC;
     padding: 30px;

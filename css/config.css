@@ -33,9 +33,17 @@
     }
 }
 
+/* EFEITOS DE TRANSIÇÃO */
+.aplicarefeito {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+  transition: opacity 0.5s, transform 0.5s !important;
+}
+
+
 @media (max-width: 768px) {
   .title h1 {
-    font-size: 2.2rem !important;
+    font-size: 2.8rem !important;
     margin-left: 10px !important;
     margin-top: -20px !important;
   }
@@ -46,6 +54,9 @@
   .title p {
     font-size: 0.4rem !important;
     margin-top: 8px !important;
+  }
+  .left img{
+    scale: 1.4;
   }
   .main-second{
     font-size: 18px !important;
@@ -66,10 +77,21 @@
     max-height: 200px !important;
   }
   .information-card p{ 
-    font-size: 1rem !important;
+    font-size: 0.8rem !important;
   }
   .main-third h1{
-    font-size: 3rem !important;
+    font-size: 1.8rem !important;
+  }
+  .card{
+    min-width: 230px !important;
+    max-width: 230px !important;
+  }
+  .image{
+    min-height: 150px !important;
+    max-height: 150px !important;
+  }
+  .image img{
+    height: 100% !important;
   }
   .image-fourth img{
     border-radius: 10px 10px 10px 10px !important;
